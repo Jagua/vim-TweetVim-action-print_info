@@ -1,0 +1,3 @@
+# vim-TweetVim-action-print_info
+
+**vim-TweetVim-action-print_info** is a Vim plugin to print a tweet information of TweetVim.

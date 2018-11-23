@@ -1,0 +1,52 @@
+*vim-TweetVim-action-print_info* TweetVim plugin: action-print_info
+
+Version: 0.1.0
+Author: Jagua
+License: MIT License
+
+
+
+==============================================================================
+INTRODUCTION                         *tweetvim-action-print_info-introduction*
+
+|tweetvim-action-print_info| is a Vim plugin to print a tweet information of
+|tweetvim|.
+
+
+Requirements:
+- |tweetvim|
+  https://github.com/basyura/TweetVim
+
+Optionals:
+- |prettyprint|
+  https://github.com/thinca/vim-prettyprint
+
+Latest version:
+https://github.com/Jagua/vim-TweetVim-action-print_info
+
+
+
+==============================================================================
+INTERFACE                               *tweetvim-action-print_info-interface*
+
+------------------------------------------------------------------------------
+MAPPINGS                                 *tweetvim-action-print_info-mappings*
+
+
+<Plug>(tweetvim_action_print_info)        *<Plug>(tweetvim_action_print_info)*
+        print a tweet information.
+        If |prettyprint| is installed, use |:PrettyPrint| command instead of
+        |:echo|.
+
+
+
+==============================================================================
+CHANGELOG                               *tweetvim-action-print_info-changelog*
+
+0.1.0   2018-08-20
+        - Initial version.
+
+
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:et:norl:fen:fdl=0:
